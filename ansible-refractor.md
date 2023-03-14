@@ -109,11 +109,12 @@ Since you need to apply some tasks to your dev servers and wireshark is already 
 
 `sudo ansible-playbook -i /home/ubuntu/ansible-config-mgt/inventory/dev.yml /home/ubuntu/ansible-config-mgt/playbooks/site.yaml`
 
-```
-
-
+![](assets/11.png)
+![](assets/12.png)
+![](assets/13.png)
 
 Make sure that wireshark is deleted on all the servers by running wireshark --version
+![](assets/13.png)
 
 ### Configure UAT Webservers with a role ‘Webserver’
 
